@@ -1,8 +1,10 @@
 # PasswordManager
 
-Instalation: 
-
+## Instalation: 
+  ```
   clone the project
-  pod install 
-  run
-
+  ```
+  pod install 
+  ```
+  run
+  ```
