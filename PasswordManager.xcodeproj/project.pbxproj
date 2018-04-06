@@ -10,13 +10,48 @@
 		6BD183251D1B542916FE0443 /* Pods_PasswordManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572D940B6CCD7C7CDC00599C /* Pods_PasswordManager.framework */; };
 		90FC11A204BBE2193B63AD58 /* Pods_PasswordManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0C55315BA605111AC59AE2 /* Pods_PasswordManagerUITests.framework */; };
 		E4F99667EEA4F70E9793DAC1 /* Pods_PasswordManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF99D7F0A04E60ADD7A06E7 /* Pods_PasswordManagerTests.framework */; };
+		E9198A2E20731AE900278D5B /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A1820731AE800278D5B /* IQTextView.swift */; };
+		E9198A2F20731AE900278D5B /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A1A20731AE800278D5B /* IQPreviousNextView.swift */; };
+		E9198A3020731AE900278D5B /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A1B20731AE800278D5B /* IQTitleBarButtonItem.swift */; };
+		E9198A3120731AE900278D5B /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A1C20731AE800278D5B /* IQBarButtonItem.swift */; };
+		E9198A3220731AE900278D5B /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A1D20731AE800278D5B /* IQToolbar.swift */; };
+		E9198A3320731AE900278D5B /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A1E20731AE800278D5B /* IQUIView+IQKeyboardToolbar.swift */; };
+		E9198A3420731AE900278D5B /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2020731AE800278D5B /* IQKeyboardManagerConstantsInternal.swift */; };
+		E9198A3520731AE900278D5B /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2120731AE800278D5B /* IQKeyboardManagerConstants.swift */; };
+		E9198A3620731AE900278D5B /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9198A2320731AE800278D5B /* IQKeyboardManager.bundle */; };
+		E9198A3720731AE900278D5B /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2420731AE800278D5B /* IQKeyboardReturnKeyHandler.swift */; };
+		E9198A3820731AE900278D5B /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2520731AE800278D5B /* IQKeyboardManager.swift */; };
+		E9198A3920731AE900278D5B /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2820731AE800278D5B /* IQUIWindow+Hierarchy.swift */; };
+		E9198A3A20731AE900278D5B /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2920731AE800278D5B /* IQUIScrollView+Additions.swift */; };
+		E9198A3B20731AE900278D5B /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2A20731AE800278D5B /* IQUIViewController+Additions.swift */; };
+		E9198A3C20731AE900278D5B /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2B20731AE800278D5B /* IQUITextFieldView+Additions.swift */; };
+		E9198A3D20731AE900278D5B /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2C20731AE800278D5B /* IQUIView+Hierarchy.swift */; };
+		E9198A3E20731AE900278D5B /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A2D20731AE800278D5B /* IQNSArray+Sort.swift */; };
+		E9198A4020731D3B00278D5B /* AuthenticationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A3F20731D3B00278D5B /* AuthenticationPresenter.swift */; };
+		E9198A492073A36800278D5B /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9198A472073A36800278D5B /* AlertViewController.swift */; };
+		E9198A4A2073A36800278D5B /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9198A482073A36800278D5B /* AlertViewController.xib */; };
+		E9198A4C2073D35300278D5B /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9198A4B2073D35300278D5B /* LocalAuthentication.framework */; };
+		E9B0D4462074F7AB00B15756 /* PasswordsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0D4452074F7AB00B15756 /* PasswordsPresenter.swift */; };
+		E9B0D44920750E7700B15756 /* DetalhesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0D44820750E7700B15756 /* DetalhesPresenter.swift */; };
+		E9B0D44B20750EA200B15756 /* NewPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0D44A20750EA200B15756 /* NewPasswordPresenter.swift */; };
+		E9B0D44F2075131300B15756 /* PasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0D44D2075131300B15756 /* PasswordTableViewCell.swift */; };
+		E9B0D4502075131300B15756 /* PasswordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B0D44E2075131300B15756 /* PasswordTableViewCell.xib */; };
+		E9B0D4522075142D00B15756 /* PasswordCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B0D4512075142D00B15756 /* PasswordCellPresenter.swift */; };
 		E9EE6F76207198670041E145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6F75207198670041E145 /* AppDelegate.swift */; };
-		E9EE6F78207198670041E145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6F77207198670041E145 /* ViewController.swift */; };
+		E9EE6F78207198670041E145 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6F77207198670041E145 /* AuthenticationViewController.swift */; };
 		E9EE6F7B207198670041E145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EE6F79207198670041E145 /* Main.storyboard */; };
 		E9EE6F7D207198670041E145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EE6F7C207198670041E145 /* Assets.xcassets */; };
 		E9EE6F80207198670041E145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EE6F7E207198670041E145 /* LaunchScreen.storyboard */; };
 		E9EE6F8B207198670041E145 /* PasswordManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6F8A207198670041E145 /* PasswordManagerTests.swift */; };
 		E9EE6F96207198670041E145 /* PasswordManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6F95207198670041E145 /* PasswordManagerUITests.swift */; };
+		E9EE6FA420719EBE0041E145 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6FA320719EBE0041E145 /* KeychainManager.swift */; };
+		E9EE6FA62071A4F90041E145 /* PasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6FA52071A4F90041E145 /* PasswordItem.swift */; };
+		E9EE6FA82071CB210041E145 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6FA72071CB210041E145 /* NetworkManager.swift */; };
+		E9EE6FAA207308550041E145 /* UIViewDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6FA9207308550041E145 /* UIViewDesignable.swift */; };
+		E9EE6FAC20730A190041E145 /* UIButtonDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EE6FAB20730A190041E145 /* UIButtonDesignable.swift */; };
+		E9F939552074111A0014ACCD /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F939542074111A0014ACCD /* PasswordsViewController.swift */; };
+		E9F93957207418070014ACCD /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F93956207418070014ACCD /* NewPasswordViewController.swift */; };
+		E9F93959207418190014ACCD /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F93958207418190014ACCD /* DetalhesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +80,37 @@
 		6F0C55315BA605111AC59AE2 /* Pods_PasswordManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF99D7F0A04E60ADD7A06E7 /* Pods_PasswordManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A60E03E3A72AD37A207644 /* Pods-PasswordManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordManagerTests/Pods-PasswordManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9198A1820731AE800278D5B /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		E9198A1A20731AE800278D5B /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		E9198A1B20731AE800278D5B /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		E9198A1C20731AE800278D5B /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		E9198A1D20731AE800278D5B /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		E9198A1E20731AE800278D5B /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		E9198A2020731AE800278D5B /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		E9198A2120731AE800278D5B /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		E9198A2320731AE800278D5B /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		E9198A2420731AE800278D5B /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		E9198A2520731AE800278D5B /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		E9198A2620731AE800278D5B /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		E9198A2820731AE800278D5B /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		E9198A2920731AE800278D5B /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		E9198A2A20731AE800278D5B /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		E9198A2B20731AE800278D5B /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		E9198A2C20731AE800278D5B /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		E9198A2D20731AE800278D5B /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		E9198A3F20731D3B00278D5B /* AuthenticationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationPresenter.swift; sourceTree = "<group>"; };
+		E9198A472073A36800278D5B /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		E9198A482073A36800278D5B /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		E9198A4B2073D35300278D5B /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		E9B0D4452074F7AB00B15756 /* PasswordsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsPresenter.swift; sourceTree = "<group>"; };
+		E9B0D44820750E7700B15756 /* DetalhesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesPresenter.swift; sourceTree = "<group>"; };
+		E9B0D44A20750EA200B15756 /* NewPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordPresenter.swift; sourceTree = "<group>"; };
+		E9B0D44D2075131300B15756 /* PasswordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTableViewCell.swift; sourceTree = "<group>"; };
+		E9B0D44E2075131300B15756 /* PasswordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordTableViewCell.xib; sourceTree = "<group>"; };
+		E9B0D4512075142D00B15756 /* PasswordCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCellPresenter.swift; sourceTree = "<group>"; };
 		E9EE6F72207198670041E145 /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EE6F75207198670041E145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9EE6F77207198670041E145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9EE6F77207198670041E145 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		E9EE6F7A207198670041E145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9EE6F7C207198670041E145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9EE6F7F207198670041E145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +121,14 @@
 		E9EE6F91207198670041E145 /* PasswordManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EE6F95207198670041E145 /* PasswordManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerUITests.swift; sourceTree = "<group>"; };
 		E9EE6F97207198670041E145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EE6FA320719EBE0041E145 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		E9EE6FA52071A4F90041E145 /* PasswordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordItem.swift; sourceTree = "<group>"; };
+		E9EE6FA72071CB210041E145 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E9EE6FA9207308550041E145 /* UIViewDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewDesignable.swift; sourceTree = "<group>"; };
+		E9EE6FAB20730A190041E145 /* UIButtonDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonDesignable.swift; sourceTree = "<group>"; };
+		E9F939542074111A0014ACCD /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		E9F93956207418070014ACCD /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		E9F93958207418190014ACCD /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		EB53EB27C6ADBEA7A4BFFCE2 /* Pods-PasswordManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordManager/Pods-PasswordManager.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9198A4C2073D35300278D5B /* LocalAuthentication.framework in Frameworks */,
 				6BD183251D1B542916FE0443 /* Pods_PasswordManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,11 +164,96 @@
 		4793207D87435E2CFBEB1220 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E9198A4B2073D35300278D5B /* LocalAuthentication.framework */,
 				572D940B6CCD7C7CDC00599C /* Pods_PasswordManager.framework */,
 				DBF99D7F0A04E60ADD7A06E7 /* Pods_PasswordManagerTests.framework */,
 				6F0C55315BA605111AC59AE2 /* Pods_PasswordManagerUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9198A1620731AE800278D5B /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E9198A1720731AE800278D5B /* IQTextView */,
+				E9198A1920731AE800278D5B /* IQToolbar */,
+				E9198A1F20731AE800278D5B /* Constants */,
+				E9198A2220731AE800278D5B /* Resources */,
+				E9198A2420731AE800278D5B /* IQKeyboardReturnKeyHandler.swift */,
+				E9198A2520731AE800278D5B /* IQKeyboardManager.swift */,
+				E9198A2620731AE800278D5B /* IQKeyboardManagerSwift.h */,
+				E9198A2720731AE800278D5B /* Categories */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		E9198A1720731AE800278D5B /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E9198A1820731AE800278D5B /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		E9198A1920731AE800278D5B /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E9198A1A20731AE800278D5B /* IQPreviousNextView.swift */,
+				E9198A1B20731AE800278D5B /* IQTitleBarButtonItem.swift */,
+				E9198A1C20731AE800278D5B /* IQBarButtonItem.swift */,
+				E9198A1D20731AE800278D5B /* IQToolbar.swift */,
+				E9198A1E20731AE800278D5B /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		E9198A1F20731AE800278D5B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E9198A2020731AE800278D5B /* IQKeyboardManagerConstantsInternal.swift */,
+				E9198A2120731AE800278D5B /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E9198A2220731AE800278D5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9198A2320731AE800278D5B /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9198A2720731AE800278D5B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E9198A2820731AE800278D5B /* IQUIWindow+Hierarchy.swift */,
+				E9198A2920731AE800278D5B /* IQUIScrollView+Additions.swift */,
+				E9198A2A20731AE800278D5B /* IQUIViewController+Additions.swift */,
+				E9198A2B20731AE800278D5B /* IQUITextFieldView+Additions.swift */,
+				E9198A2C20731AE800278D5B /* IQUIView+Hierarchy.swift */,
+				E9198A2D20731AE800278D5B /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E9B0D4472074F87200B15756 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				E9198A472073A36800278D5B /* AlertViewController.swift */,
+				E9198A482073A36800278D5B /* AlertViewController.xib */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		E9B0D44C207512F300B15756 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0D44D2075131300B15756 /* PasswordTableViewCell.swift */,
+				E9B0D44E2075131300B15756 /* PasswordTableViewCell.xib */,
+				E9B0D4512075142D00B15756 /* PasswordCellPresenter.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		E9EE6F69207198670041E145 = {
@@ -124,12 +281,12 @@
 		E9EE6F74207198670041E145 /* PasswordManager */ = {
 			isa = PBXGroup;
 			children = (
-				E9EE6F75207198670041E145 /* AppDelegate.swift */,
-				E9EE6F77207198670041E145 /* ViewController.swift */,
-				E9EE6F79207198670041E145 /* Main.storyboard */,
-				E9EE6F7C207198670041E145 /* Assets.xcassets */,
-				E9EE6F7E207198670041E145 /* LaunchScreen.storyboard */,
-				E9EE6F81207198670041E145 /* Info.plist */,
+				E9198A1620731AE800278D5B /* IQKeyboardManagerSwift */,
+				E9F9395A207418200014ACCD /* Scenes */,
+				E9F93962207419140014ACCD /* Model */,
+				E9F93960207418A70014ACCD /* Persistance */,
+				E9F93961207418F60014ACCD /* Helpers */,
+				E9F9395F207418840014ACCD /* Core */,
 			);
 			path = PasswordManager;
 			sourceTree = "<group>";
@@ -150,6 +307,93 @@
 				E9EE6F97207198670041E145 /* Info.plist */,
 			);
 			path = PasswordManagerUITests;
+			sourceTree = "<group>";
+		};
+		E9F9395A207418200014ACCD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0D4472074F87200B15756 /* Alert */,
+				E9F9395E2074186E0014ACCD /* Detail */,
+				E9F9395D2074185B0014ACCD /* NewPassword */,
+				E9F9395C207418490014ACCD /* Passwords */,
+				E9F9395B2074182B0014ACCD /* Authentication */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E9F9395B2074182B0014ACCD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE6F77207198670041E145 /* AuthenticationViewController.swift */,
+				E9198A3F20731D3B00278D5B /* AuthenticationPresenter.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		E9F9395C207418490014ACCD /* Passwords */ = {
+			isa = PBXGroup;
+			children = (
+				E9B0D44C207512F300B15756 /* Cell */,
+				E9F939542074111A0014ACCD /* PasswordsViewController.swift */,
+				E9B0D4452074F7AB00B15756 /* PasswordsPresenter.swift */,
+			);
+			path = Passwords;
+			sourceTree = "<group>";
+		};
+		E9F9395D2074185B0014ACCD /* NewPassword */ = {
+			isa = PBXGroup;
+			children = (
+				E9F93956207418070014ACCD /* NewPasswordViewController.swift */,
+				E9B0D44A20750EA200B15756 /* NewPasswordPresenter.swift */,
+			);
+			path = NewPassword;
+			sourceTree = "<group>";
+		};
+		E9F9395E2074186E0014ACCD /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E9F93958207418190014ACCD /* DetalhesViewController.swift */,
+				E9B0D44820750E7700B15756 /* DetalhesPresenter.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		E9F9395F207418840014ACCD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE6F81207198670041E145 /* Info.plist */,
+				E9EE6F75207198670041E145 /* AppDelegate.swift */,
+				E9EE6F79207198670041E145 /* Main.storyboard */,
+				E9EE6F7C207198670041E145 /* Assets.xcassets */,
+				E9EE6F7E207198670041E145 /* LaunchScreen.storyboard */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E9F93960207418A70014ACCD /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE6FA320719EBE0041E145 /* KeychainManager.swift */,
+				E9EE6FA72071CB210041E145 /* NetworkManager.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		E9F93961207418F60014ACCD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE6FA9207308550041E145 /* UIViewDesignable.swift */,
+				E9EE6FAB20730A190041E145 /* UIButtonDesignable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E9F93962207419140014ACCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE6FA52071A4F90041E145 /* PasswordItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FFF202E5CF09DFA257114BEF /* Pods */ = {
@@ -283,7 +527,10 @@
 			files = (
 				E9EE6F80207198670041E145 /* LaunchScreen.storyboard in Resources */,
 				E9EE6F7D207198670041E145 /* Assets.xcassets in Resources */,
+				E9B0D4502075131300B15756 /* PasswordTableViewCell.xib in Resources */,
+				E9198A3620731AE900278D5B /* IQKeyboardManager.bundle in Resources */,
 				E9EE6F7B207198670041E145 /* Main.storyboard in Resources */,
+				E9198A4A2073A36800278D5B /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,8 +705,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9EE6F78207198670041E145 /* ViewController.swift in Sources */,
+				E9B0D4522075142D00B15756 /* PasswordCellPresenter.swift in Sources */,
+				E9F93959207418190014ACCD /* DetalhesViewController.swift in Sources */,
+				E9198A3D20731AE900278D5B /* IQUIView+Hierarchy.swift in Sources */,
+				E9EE6F78207198670041E145 /* AuthenticationViewController.swift in Sources */,
+				E9198A3E20731AE900278D5B /* IQNSArray+Sort.swift in Sources */,
+				E9198A3420731AE900278D5B /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				E9198A3B20731AE900278D5B /* IQUIViewController+Additions.swift in Sources */,
+				E9EE6FA420719EBE0041E145 /* KeychainManager.swift in Sources */,
+				E9198A3920731AE900278D5B /* IQUIWindow+Hierarchy.swift in Sources */,
+				E9198A3C20731AE900278D5B /* IQUITextFieldView+Additions.swift in Sources */,
+				E9198A4020731D3B00278D5B /* AuthenticationPresenter.swift in Sources */,
+				E9198A3120731AE900278D5B /* IQBarButtonItem.swift in Sources */,
+				E9198A492073A36800278D5B /* AlertViewController.swift in Sources */,
+				E9B0D44F2075131300B15756 /* PasswordTableViewCell.swift in Sources */,
+				E9EE6FAC20730A190041E145 /* UIButtonDesignable.swift in Sources */,
+				E9B0D4462074F7AB00B15756 /* PasswordsPresenter.swift in Sources */,
+				E9B0D44920750E7700B15756 /* DetalhesPresenter.swift in Sources */,
+				E9EE6FAA207308550041E145 /* UIViewDesignable.swift in Sources */,
+				E9198A3320731AE900278D5B /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				E9EE6FA82071CB210041E145 /* NetworkManager.swift in Sources */,
+				E9198A2F20731AE900278D5B /* IQPreviousNextView.swift in Sources */,
+				E9198A2E20731AE900278D5B /* IQTextView.swift in Sources */,
+				E9F93957207418070014ACCD /* NewPasswordViewController.swift in Sources */,
+				E9F939552074111A0014ACCD /* PasswordsViewController.swift in Sources */,
+				E9198A3720731AE900278D5B /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				E9198A3820731AE900278D5B /* IQKeyboardManager.swift in Sources */,
 				E9EE6F76207198670041E145 /* AppDelegate.swift in Sources */,
+				E9EE6FA62071A4F90041E145 /* PasswordItem.swift in Sources */,
+				E9198A3020731AE900278D5B /* IQTitleBarButtonItem.swift in Sources */,
+				E9198A3A20731AE900278D5B /* IQUIScrollView+Additions.swift in Sources */,
+				E9B0D44B20750EA200B15756 /* NewPasswordPresenter.swift in Sources */,
+				E9198A3520731AE900278D5B /* IQKeyboardManagerConstants.swift in Sources */,
+				E9198A3220731AE900278D5B /* IQToolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,7 +906,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68E47ZJWVK;
-				INFOPLIST_FILE = PasswordManager/Info.plist;
+				INFOPLIST_FILE = PasswordManager/Core/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.italohqueiroz.PasswordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -644,7 +922,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68E47ZJWVK;
-				INFOPLIST_FILE = PasswordManager/Info.plist;
+				INFOPLIST_FILE = PasswordManager/Core/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.italohqueiroz.PasswordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
