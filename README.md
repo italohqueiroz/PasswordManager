@@ -2,7 +2,10 @@
 
 ## Instalation: 
 
-  clone the project
-  pod install 
-  run
+
+clone the project
+
+pod install 
+
+run
  
